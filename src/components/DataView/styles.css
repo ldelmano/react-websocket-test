@@ -1,0 +1,29 @@
+.summary {
+  display: flex;
+  flex-direction: column;
+  margin: 16px -16px;
+}
+
+.summary-card {
+  flex: 1;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.1);
+}
+
+.summary-card__title {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.summary-card__subtitle {
+  color: #777777
+}
+
+@media (min-width: 768px) {
+  .summary {
+    flex-direction: row;
+  }
+}
